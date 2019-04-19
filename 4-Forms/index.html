@@ -7,79 +7,45 @@
     <title>Document</title>
 </head>
 <body>
+    <h3>Sign in</h3>
     <form action="/">
         <p>
             <label>
-                Name
-                <input type="text" name="name" required>
+                Full name:
+               <p> <input type="text" name="name" required placeholder="Enter full name" required></p>
             </label>
         </p>
 
         <p>
-            <label>
-                Email
-                <input type="email" name="E-mail" required>
-            </label>
+             <label>
+                 Email address:
+                 <p> <input type="email" name="email" required placeholder="Enter email" required></p>
+             </label>
+         </p>
+
+
+         <label>Communication:
+                <p> <input type="checkbox" name="Email">Email </p>
+                <p> <input type="checkbox" name="SMS" >SMS </p>
+                <p> <input type="checkbox" name="Phone" >Phone </p>
+
+         </label>
+
+
+         <label >user Group:
+                 
+           <p> 
+                <input type="radio" name="user" value="Sales pers" required >Sales Person
+                <input type="radio" name="user" value="Custuner" >Customer
+            </p>
+            Please select user group
+
+         </label>
+
+         <p>
+            <input type="submit" value="Submit" >
+            <input type="reset" value="Clear">
         </p>
-
-
-        <p>
-            <label>
-                Password:
-                <input type="password" name="Password" required>
-            </label>
-        </p>
-    
-        <p>
-            <label>
-                Number
-                <input type="number" name="number" required>
-            </label>
-        </p>
-
-        <p>
-            <label>
-                Date
-                <input type="date" name="date" required>
-            </label>
-        </p>
-
-
-        <p>
-            <label>
-                Time
-                <input type="time" name="time" required>
-            </label>
-        </p>
-
-        <p>
-            <label>
-                Color
-                <input type="color" name="color" required>
-            </label>
-        </p>
-
-        <p>
-            <label>
-                Range
-                <input type="range" name="range" required>
-            </label>
-        </p>
-
-
-        <p>
-            <label >
-                Description
-                 <textarea name="Description" cols="30" rows="10" required></textarea>
-            </label>
-        </p>
-
-
-
-
-        <input type="submit" value="Submit">
-        <input type="reset" value="Clear">
-
     </form>
 </body>
 </html>
