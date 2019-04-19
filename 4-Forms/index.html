@@ -10,14 +10,14 @@
     <form action="/">
         <p>
             <label>
-                Phone:
-                <input type="number" name="Phone" required>
+                Name
+                <input type="text" name="name" required>
             </label>
         </p>
 
         <p>
             <label>
-                E-mail:
+                Email
                 <input type="email" name="E-mail" required>
             </label>
         </p>
@@ -32,45 +32,54 @@
     
         <p>
             <label>
-                Confirm Password:
-                <input type="password" name="ConfirmPassword" required>
+                Number
+                <input type="number" name="number" required>
             </label>
         </p>
 
         <p>
             <label>
-                Nickname :
-                <input type="text" name="Nickname" required>
+                Date
+                <input type="date" name="date" required>
+            </label>
+        </p>
+
+
+        <p>
+            <label>
+                Time
+                <input type="time" name="time" required>
             </label>
         </p>
 
         <p>
             <label>
-                Habitual Residence:
-                <select name="Countru" required >
-                    <option name="Georgia">Georgia</option>
-                    <option name="English">English</option>
-                </select>
+                Color
+                <input type="color" name="color" required>
             </label>
         </p>
 
         <p>
             <label>
-               Website:
-                    <input type="text" name="Website" placeholder="website" required>
+                Range
+                <input type="range" name="range" required>
             </label>
         </p>
+
 
         <p>
-
-            <label for="">
-
-                <input type="checkbox" required name="checkbox">
-                I have read the <a href="https://www.google.com/">agreement</a>
+            <label >
+                Description
+                 <textarea name="Description" cols="30" rows="10" required></textarea>
             </label>
         </p>
 
-        <input type="submit" value="Register">
+
+
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+
     </form>
 </body>
 </html>
