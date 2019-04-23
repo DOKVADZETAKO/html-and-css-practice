@@ -36,3 +36,9 @@
     width: 150px;
     font-size: 25px;
 }
+
+.ghost{
+    color: black !important;
+    background-color: transparent !important;
+    
+}
