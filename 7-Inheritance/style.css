@@ -26,3 +26,13 @@
     background-color: #cacaca;
     border: 1px solid grey;
 }
+
+.small{
+    width: 75px;
+    font-size: 15px;
+}
+
+.large{
+    width: 150px;
+    font-size: 25px;
+}
