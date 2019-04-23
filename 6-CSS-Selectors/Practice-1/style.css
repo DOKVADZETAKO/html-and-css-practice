@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+header h1{
+    font-size: 30px;
+    color: red;
+    text-align: center
+}
+
+#Gallery:hover{
+    color: #cacaca;
+}
+
+
+section h3 a {
+    color: grey;
+    font-size: 20px;
+}
+
+.img:hover {
+    background-color: #fff;    
+}
