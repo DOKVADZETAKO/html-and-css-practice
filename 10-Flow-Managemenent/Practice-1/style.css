@@ -3,58 +3,12 @@
     margin: 0 auto;
 }
 
-
-.row-1{
-    background-color: green;
-    width: 100px;
-    height: 100px;
-    float: left;
-    clear: both;
-}
-
-.row-2{
-    background-color:blue;
-    width: 100px;
-    height: 100px;
-    float: left;
-    clear: both;
-}
-
-.col-1{
-    float: left;
-}
-
-.col-3{
-    width: 500px;
-    height: 200px;
-    float: right;
-    background-color: red;;
-}
-
-.col-4{
-    width: 100px;
-    height: 300px;
-    float: left;
-    background-color: tomato;
-}
-
-.col-5{
+.row .col-1{
     width: 300px;
     height: 300px;
-    float: left;
-    background-color: yellow;;
+    background-color: black;
 }
 
-.row-3{
-    background-color: green;
-    width: 200px;
-    height: 150px;
-    float: right;
+.red{
 }
 
-.row-4{
-    background-color:blue;
-    width: 200px;
-    height: 150px;
-    float: right;
-}
