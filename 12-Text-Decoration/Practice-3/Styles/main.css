@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 1173px;
+    margin: 30px auto;
+}
+
+main header{
+  margin-bottom: 50px;  
+  display: flex;
+  justify-content: space-between;
+}
+
+main header div{
+    display: flex;
+    flex-direction: column;
+}
+
+main header h3{
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    color: #2C3E50;
+    font-weight: normal;
+}
+
+main header span{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    color: #A1B1BC;
+}
+
+.mainrows{
+    margin-bottom: 77px;
+    position: relative;
+}
+
+.mainrows .row{
+    border: 1px solid #ECF0F1;
+    margin-bottom: 25px;
+    display: flex;
+    padding: 28px 28px 23px 28px;
+}
+
+.mainrows .box{
+    width: 70px;
+    height: 70px;
+    background-color: #A1B1BC;
+    border: 4px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px grey;
+    position: absolute;
+    left: 35px;
+}
+.mainrows .row-1:first-child .box{
+    top: 34px;
+}
+.mainrows .row-3 .box{
+    left: 104px;
+}
+
+.mainrows .content {
+    position: relative;
+    margin-left: 109px;
+}
+
+.mainrows .row-3  .content {
+    margin-left: 128px;
+}
+
+.mainrows .content h4{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+    margin-bottom: 2px;
+}
+
+.mainrows .content span{
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+
+
+.mainrows .content p{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-top: 5px
+}
+
+
+.mainrows .content .button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    color: white;
+    background-color: #2C3E50;
+    padding: 4.5px;
+    border: 0;
+    border-radius: 2px;
+    width: 60px
+}
+
+.mainrows .row-2 .content .button{
+   background-color: #A1B1BC;
+}
+
+.mainrows .row-1-1{
+    padding-top: 25px;
+}
+
+.mainrows .row-1-2{
+    padding-top: 29px;
+}
+
+
+.mainrows .row-3{
+    margin-left: 50px;
+    padding-top: 29px
+}
+
+.mainrows .row-3-1{
+    padding-top: 25px
+}
+
+
+
+.Contact h3{
+    color: #2C3E50;
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+}
+
+.Contact .input{
+   width: 370px;
+   background-color: #F7F8F9;
+   border: 1px solid #ECF0F1;
+   padding: 17px;
+   margin-bottom: 20px;
+   margin-right: 27px;
+   letter-spacing: 1px;
+}
+.Contact .email{  
+    background-color: #fff; 
+ }
+
+.Contact .text{
+    margin-right: 0px;
+}
+
+.Contact textarea{
+    width: 100%;
+    height: 300px;
+    background-color: #F7F8F9;
+    border: 1px solid #ECF0F1;
+    margin-bottom: 15px;
+}
+
+.Contact .submit{
+    width: 190px;
+    background-color: #2C3E50;
+    padding: 16px;
+    font-size: 15px;
+    line-height: 19px;
+    font-family: 'Roboto';
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+ }
+
+
+
